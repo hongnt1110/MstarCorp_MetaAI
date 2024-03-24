@@ -1,0 +1,683 @@
+.absolute.left-0.right-0 {
+    display: none;
+}
+.gizmo-shadow-stroke.relative.flex.h-full.items-center.justify-center.rounded-full.bg-white.text-black{
+    display: none;
+
+}
+
+/* ----------------Bitrix24------------------- */
+input{
+    border-width: 0px;
+}
+
+select {
+    border-width: 0px;
+}
+
+#container-content-B{
+    background-image: url(https://api.maychu.dev/MstarCorp2/build/assets/background-image.png);
+    background-size: cover;
+    margin: 2%;
+    border-radius: 2%;
+    height: max-content;
+    padding-bottom: 10px;
+    resize:vertical;
+}
+#green-button-container {
+    position: fixed;
+    bottom: 64px;
+    right: 56px;
+    z-index: 9999; /* Ensure the button is on top of other content */
+    display: flex;
+}
+#rectangle-introduce{
+    width: 280px;
+    height: 22%;
+    background-color: white;
+    /* padding: 0 8%; */
+    border-radius: 20px;
+    margin-right: 8%;
+    padding-left: 8px;
+    margin-right: 0px;
+    padding-right: 12px;
+}
+#title-rectangle{
+    color: #006738; 
+    font-size: 16px; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#script-intro{
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#click-see-detail{
+    font-size: 10px;
+    float: right;
+    margin-top: 16px;
+
+}
+.logo-metaAI {
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 22%;
+}
+
+.absolute.bottom-full.left-0.mb-4.flex.w-full.grow.gap-2.px-1.pb-1.sm\:px-2.sm\:pb-0.md\:static.md\:mb-0.md\:max-w-none {
+    display: none;
+}
+/* .bx-im-dialog-chat__scroll-container{
+    display: none;
+} */
+
+.flex.h-full.w-full.pb-2.md\:pb-\[8vh\] {
+    display: flex;
+    flex-direction: column;
+}
+
+.mb-5.text-2xl.font-medium {
+    display: none !important;
+}
+
+.add-prompt-box {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes moving-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-text {
+    background-image: linear-gradient(90deg, rgb(0, 255, 115), #48f);
+    -webkit-background-clip: text;
+    color:#006738;
+    background-size: 200% 100%;
+    animation: moving-gradient 3s linear infinite;
+    margin-bottom: 0.5rem !important;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.textIntroduce{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.linkElement{
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 22px;
+}
+.prompt-title,
+.prompt-category,
+.prompt-author,
+.prompt-date,
+.prompt-views,
+.prompt-comments,
+.prompt-likes,
+.prompt-link {
+    margin: 4px 0;
+}
+
+#MetaAI-dropdown{
+    width: 320px;
+    margin-top: 16px;
+    margin-left: 16px;
+    border-radius: 8px;
+    background-color: #ececf1;
+}
+
+.container-filter{
+    display: flex;
+    width: calc(50%);
+    margin-top: 2vh;
+    margin-left: 4vw;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.title{
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#categoryFilter-B{
+    width: 38vh;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    height: 56px;
+    font-size: 18px;
+    padding-left: 18px;
+
+}
+.MetaAI-dropdown-B label{
+    color: white;
+    padding-right: 32px;
+    padding-top: 3px;
+    padding-left: 6px;
+}
+.MetaAI-dropdown-B{
+    display: flex;
+    width: fit-content;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #565658;
+    margin: 3px;
+    margin-left: 24px;
+    margin-top: 16px;
+    padding: 2px;
+}
+.closeIcon-B{
+    width: 12px;
+    color: white;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+
+#drop-language-B{
+    display: grid;
+    margin-bottom: 12px;
+    margin-top: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+/* --------------ChatGPT------------------ */
+.container-filter-C{
+    display: flex;
+    /* width: calc(50%); */
+    margin-top: 6vh;
+    margin-left: 4vw;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+#categoryFilter-C{
+    width: 24vh;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    height: 48px;
+    font-size: 18px;
+    padding-left: 18px;
+    border-width: 0px;
+}
+#modelFilter-C{
+    width: 24vh;
+    background-color: rgb(242, 242, 242);
+    height: 48px;
+    font-size: 18px;
+    padding-left: 18px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+#sortDropdown-C{
+    width: 24vh;
+    background-color: rgb(242, 242, 242);
+    height: 48px;
+    font-size: 18px;
+    padding-left: 18px;
+    margin-left: 14px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.Search-Input-C{
+    float: right;
+}
+#promptSearchInput-C{
+    background-color: rgb(242, 242, 242);
+    height: 48px;
+    width: 90%;
+    font-size: 18px;
+    padding-left: 18px;
+    border-radius: 10px;
+    margin-right: 62px;
+    border-width: 0px;
+}
+
+.Icon-search-C{
+    margin-top: 12px;
+    margin-right: 14px;
+}
+
+#Pagination{
+    background-color: blue;
+}
+.MetaAI-dropdown label{
+    color: white;
+    padding-left: 4px;
+}
+.MetaAI-dropdown{
+    display: flex;
+    width: fit-content;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #565658;
+    margin: 3px;
+    margin-left: 24px;
+    margin-top: 12px;
+    padding: 2px;
+}
+.closeIcon{
+    margin-top: 6px;
+    padding-left: 14px;
+    padding-right: 8px;
+}
+
+#drop-language{
+    display: grid;
+    margin-bottom: 32px;
+    margin-top: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.title-drop-language{
+    width: fit-content;
+    font-weight: bold;
+}
+#languageSelect{
+    width: 138px;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    height: 36px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-width: 0px;
+    margin-bottom: 12px
+}
+/* --------------ChatGPT------------------ */
+
+#promptSearchInput{
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    width: 90%;
+    height: 56px;
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.search-box{
+    display: flex;
+    width: 40vh;
+    border-radius: 10px;
+}
+.Icon-search{
+    margin-top: 14px;
+    margin-left: 80px;
+}
+#selectedCategoryDisplay{
+    margin-left: 4vw;
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
+}
+.createCardPrompts {
+    height: 500px;
+}
+
+.prompt-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(240px, 1fr)
+    ); /* This will help with responsiveness */
+    gap: 0.5rem;
+    grid-auto-rows: minmax(140px, auto);
+    overflow-y: scroll;
+    /* width: 900px; */
+    margin: auto;
+    height: 393px;
+    padding-bottom: 30px;
+    padding-top: 1%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.prompt-box {
+    /* display: flex; */
+    width: calc(33.33% - 16px);
+    flex-direction: column; 
+    background-color: white;
+    border-radius: 8px;
+    border-color: black;
+    border: 0px solid #ccc;
+    border: 6px;
+    font-size: medium;
+    color: black;
+    font-weight: 500;
+    padding: 18px;
+    margin: 3px;
+    cursor: pointer;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03))
+        drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    position: relative;
+    color: #ececf1;
+    max-height: fit-content;
+}
+.prompt-box:hover {
+    background: #d4d5d8;
+    color: white;
+    /* border-color: #2a2b32; */
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -3px;
+    color: #ececf1;
+    padding: 2px 7px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 12px;
+    z-index: 10;
+}
+
+.badge-new {
+    background-color: #4caf50;
+}
+
+.badge-featured {
+    background-color: #f44336;
+}
+
+.promptMainArea {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    color: black;
+    padding: 10px;
+}
+
+.prompt-box:hover .thumbs-button {
+    background-color: #2a2b32;
+}
+
+.prompt-title {
+    font-size: 0.9rem;
+    max-height: 8rem; /* Adjust this value to control the max height of the title */
+    overflow-wrap: break-word; /* Wrap long text */
+    line-height: 1.2; /* Adjust the line-height to make multiline titles look better */
+    color: #9fa0a7;
+    padding:0 10px 10px 10px;
+}
+
+.prompt-model{
+    width: fit-content;
+    background-color: #dcfce7;
+    color: #166534;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: small;
+}
+
+.prompt-classification {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 5px 0px;
+    align-items: baseline;
+    width: 100%;
+    min-height: 20px;
+}
+
+.prompt-reputation {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+
+.plusIcon {
+    font-size: 4rem;
+    cursor: pointer;
+    min-height: 100px;
+}
+
+.prompt-box .feedback-section {
+    display: flex;
+    gap: 0.25rem;
+    padding-left: 0.5rem;
+}
+
+.thumbs-button {
+    padding: 0.25rem;
+    background-color: #56586b;
+    border-radius: 3px;
+    display: flex;
+    font-size: 0.75rem;
+    gap: 3px;
+}
+
+.prompt-box:hover .thumbs-button:hover {
+    color: #d9d9e3;
+}
+
+.tags-section {
+    display: flex;
+}
+.filter-button {
+    background-color: #2f80ed;
+    color: #ececf1;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    position: relative;
+}
+
+.filter-button:hover {
+    background-color: #4a8af4;
+}
+
+.tag-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #56586a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    top: calc(100% + 5px);
+    left: 0px;
+    right: 40px;
+    border-radius: 3px;
+}
+
+.tag-dropdown.show {
+    display: block;
+}
+
+.tag-dropdown input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.tag-dropdown label {
+    display: block;
+    padding: 4px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tag-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tag-checkbox-wrapper:hover {
+    opacity: 0.8;
+}
+
+.tag-checkbox-wrapper input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.tag-value {
+    margin: 8px 5px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #1d7e46;
+    bottom: 24px;
+}
+
+/* .product-tag {
+    background-color: #d64545;
+}
+
+.copy-content-tag {
+    background-color: #2c6fc8;
+}
+
+.seo-tag {
+    background-color: #e78336;
+}
+
+.legal-tag {
+    background-color: #1d7e46;
+}
+
+.social-media-tag {
+    background-color: #8a3fcf;
+}
+
+.brainstorming-tag {
+    background-color: #e0b639;
+}
+
+.marketing-tag{
+    background-color: #d224d5;
+} */
+.user-message {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-align: center;
+    margin: 0rem 0rem 1rem 0rem !important;
+}
+
+.prompt-search {
+    background-color: transparent !important;
+    margin-left: 10px;
+    border-radius: 3px !important;
+    font-size: 14px !important;
+}
+
+.options-bar {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.search-filter-container {
+    display: inline-flex;
+    place-self: flex-end;
+    margin: 4px 0;
+    position: relative;
+    align-items: center;
+}
+
+.suggest-button {
+    background-color: #56586a;
+    color: #ececf1;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    position: relative;
+    margin: 4px 0px;
+}
+
+.suggest-button:hover {
+    background-color: #2a2b32;
+}
+
+/* //Overlay for prompt adding form */
+.overlay {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #56586a;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+.form-input {
+    color: #202123;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.form-textarea {
+    height: 200px;
+    color: #202123;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    display: flex !important;
+    align-items: center;
+    gap: 3px;
+    color: #d9d9e3;
+    border-radius: 3px;
+    float: right;
+    padding: 0.3rem;
+}
+
+.submit-button:hover {
+    background-color: #202123;
+}

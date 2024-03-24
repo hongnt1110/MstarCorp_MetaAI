@@ -1,0 +1,63 @@
+{
+    "manifest_version": 3,
+    "name": "Mstar Corp MetaAI",
+    "version": "1.0",
+    "description": "ChatGPT wwith MetAI",
+    "permissions": ["storage", "unlimitedStorage"],
+    "host_permissions": ["https://chat.openai.com/*"],
+    "background": {
+        "service_worker": "scripts/content/cardPrompts.js"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/interceptor/loadScript.js"],
+            "matches": [
+                "*://chat.openai.com/*",
+                "https://*.bitrix24.vn/*",
+                "https://*.bitrix24.com/*"
+            ],
+            "run_at": "document_start"
+        },
+        {
+            "js": [
+                "scripts/content/api.js",
+                "scripts/content/wordsList.js",
+                "scripts/content/actPrompts.js",
+                "scripts/content/contentScript.js",
+                "scripts/content/examplePromts.js",
+                "scripts/content/fetchEventListerners.js",
+                "scripts/components/tags.js",
+                "scripts/components/textArea.js",
+                "scripts/components/displayPrompts.js",
+                "scripts/components/filterModel.js",
+                "scripts/components/searchPrompt.js",
+                "scripts/components/createCardPrompt.js",
+                "scripts/components/sortByTitle.js",
+                "scripts/components/Bitrix/FilterCategory_B.js",
+                "scripts/components/Bitrix/createCardPrompt_B.js",
+                "scripts/components/Bitrix/displayPrompt_B.js",
+                "scripts/components/Bitrix/searchPrompt_B.js",
+                "scripts/components/Bitrix/tags_B.js",
+                "scripts/components/Bitrix/textArea_B.js",
+                "scripts/components/Bitrix/executeAfterButtonClick.js"
+            ],
+            "css": ["scripts/styles/global.css"],
+            "matches": [
+                "*://chat.openai.com/*",
+                "https://*.bitrix24.vn/*",
+                "https://*.bitrix24.com/*"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "*://chat.openai.com/*",
+                "https://*.bitrix24.vn/*",
+                "https://*.bitrix24.com/*"
+            ],
+            "resources": ["scripts/content/*", "scripts/interceptor/*"]
+        }
+    ]
+}
